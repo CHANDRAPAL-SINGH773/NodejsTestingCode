@@ -1,0 +1,18 @@
+{
+  "scriptFile": "index.js",
+  "bindings": [
+    {
+      "authLevel": "anonymous",  // Public access (change to "function" if needed)
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get"],  // Fixed: "methods" instead of "method"
+      "route": "multiplyFunction"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}
