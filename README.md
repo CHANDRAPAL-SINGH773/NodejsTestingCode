@@ -8,7 +8,7 @@
 
 1. update the app settings in Func app to point to DocDB... you'll need the following settings:
 
-    - "HOST": URI of your DocDB account
+    - "HOST": URI of your DocDB account 
     - "AUTH_KEY": found under "Keys" in DocDB account settings
     - "DATABASE": the name of your DocDB database
     - "COLLECTION": the name of your DocDB collection
